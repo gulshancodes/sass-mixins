@@ -90,6 +90,14 @@
 }
 
 
+// transition
+
+@mixin toggleVisibility($visibility, $opacity) {
+    visibility: $visibility;
+    opacity: $opacity;
+}
+
+
 // pseudo-element
 
 @mixin pseudo($content: "", $top: 0, $left: 0, $width: auto, $height: auto) {
