@@ -90,7 +90,7 @@
 }
 
 
-// transition
+// visibility toggling
 
 @mixin toggleVisibility($visibility, $opacity) {
     visibility: $visibility;
