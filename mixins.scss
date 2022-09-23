@@ -9,7 +9,6 @@
 }
 
 
-
 // margins
 
 @mixin mx-auto {
@@ -28,7 +27,6 @@
 }
 
 
-
 // paddings
 
 @mixin padding-x($paddingLeft, $paddingRight) {
@@ -42,14 +40,12 @@
 }
 
 
-
 // image-fit
 
 @mixin img-fit {
     @include dimension(100%, 100%);
     object-fit: cover;
 }
-
 
 
 // background-cover
@@ -61,14 +57,12 @@
 }
 
 
-
 // centering horizontally & vertically
 
 @mixin centered {
     display: grid;
     place-items: center;
 }
-
 
 
 // grids
@@ -80,7 +74,6 @@
 }
 
 
-
 // flex-box
 
 @mixin flex($justifyContent: flex-start, $alignItems: flex-start) {
@@ -90,13 +83,11 @@
 }
 
 
-
 // transition
 
 @mixin transition($prop: all, $duration, $timingFn: ease) {
     transition: $prop $duration $timingFn;
 }
-
 
 
 // pseudo-element
@@ -109,7 +100,6 @@
     @include dimension($width, $height);
     pointer-events: none;
 }
-
 
 
 // media-queries
